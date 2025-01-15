@@ -59,3 +59,37 @@ h5,
 h6 {
   text-wrap: balance;
 }
+
+/*header*/
+
+header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  margin-left: 24px;
+  width: 48px;
+  height: auto;
+}
+
+header span {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.head-list {
+  margin-left: auto;
+  margin-right: 24px;
+}
+
+.head-list ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 32px;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* body one */
