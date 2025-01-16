@@ -60,6 +60,10 @@ h6 {
   text-wrap: balance;
 }
 
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /*header*/
 
 header {
@@ -76,7 +80,7 @@ header img {
 
 header span {
   font-weight: bold;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .head-list {
@@ -87,9 +91,58 @@ header span {
 .head-list ul {
   list-style-type: none;
   display: flex;
-  font-size: 32px;
+  font-size: 24px;
   justify-content: space-between;
   gap: 16px;
 }
 
 /* body one */
+
+.body-one {
+  background-color: lightgray;
+  height: 100%;
+  padding: 32px 24px;
+  display: flex;
+  gap: 24px;
+}
+
+.banner1 {
+  width: 60%;
+}
+
+.banner1 img {
+  width: 100%;
+}
+
+.banner2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+}
+
+.banner2 .sentence1 {
+  font-size: 50px;
+  line-height: 1;
+  font-weight: bold;
+  color: rgb(72, 69, 69);
+}
+
+.banner2 .sentence2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(72, 69, 69);
+  padding: 15px;
+}
+
+.banner2 .sentence3 {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: rgb(72, 69, 69);
+  padding: 8px;
+}
+
+/* body two */
