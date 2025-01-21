@@ -96,6 +96,27 @@ header span {
   gap: 16px;
 }
 
+.head-list img {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  header span {
+    display: none;
+  }
+
+  .head-list ul {
+    gap: 30px;
+  }
+
+  .head-list img {
+    display: block;
+    width: 48px;
+    height: 48px;
+  }
+
+}
+
 /* body one */
 
 .body-one {
@@ -143,6 +164,25 @@ header span {
   color: white;
   background-color: rgb(72, 69, 69);
   padding: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .body-one {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .banner1 {
+    width: 100%;
+  }
+
+  .banner2 {
+    width: 100%;
+  }
+
+  .banner2 .sentence1 {
+    font-size: 45px;
+  }
 }
 
 /* body two */
