@@ -240,7 +240,6 @@ header span {
 
 .three-title {
   text-align: center;
-
 }
 
 .three-boxes {
@@ -261,4 +260,82 @@ header span {
 .section {
   padding: 16px;
   background-color: #fff;
+}
+
+/* body four */
+
+.body-four {
+  background-color: #fff;
+}
+
+.banner5-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 24px;
+}
+
+.banner5 {
+  width: 60%;
+
+}
+
+.banner5 video {
+  width: 100%;
+}
+
+.banner5-text {
+  padding: 24px 0 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.banner6 {
+  width: 40%;
+}
+
+.box-6-1 {
+  background-color: #ccc;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.box-6-pic {
+  width: 35%;
+
+}
+
+.box-6-pic img {
+  height: auto;
+}
+
+.box-6-text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-6-1.whitebg {
+  background-color: white;
+}
+
+/* footer */
+
+footer {
+  border-top: #ccc solid 1px;
+  padding: 16px 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer nav {
+  display: flex;
+  gap: 16px;
 }
