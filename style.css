@@ -293,6 +293,8 @@ header span {
 
   .body-two .banner4 .box .text {
     margin-left: 16px;
+    width: 100%;
+    line-height: 1.5;
   }
 
   .graybg {
