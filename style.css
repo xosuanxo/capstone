@@ -268,6 +268,38 @@ header span {
   background-color: #ccc;
 }
 
+@media screen and (max-width: 768px) {
+  .body-two .banner3 {
+    display: none;
+  }
+
+  .body-two .banner4 {
+    width: 100%;
+
+  }
+
+  .body-two .banner4 .box img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .body-two .banner4 .box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-block: none;
+    margin: 16px 16px;
+  }
+
+  .body-two .banner4 .box .text {
+    margin-left: 16px;
+  }
+
+  .graybg {
+    background-color: white;
+  }
+}
+
 /* body three */
 
 .body-three {
@@ -300,6 +332,37 @@ header span {
 .section {
   padding: 16px;
   background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+
+  .three-boxes img {
+    display: none;
+  }
+
+  .three-boxes .section-content {
+    display: none;
+  }
+
+  .body-three {
+    background-color: #fff;
+    padding: 32px 16px;
+  }
+
+  .three-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .three-boxes .section {
+    background-color: #ccc;
+  }
+
+  .section .section-title {
+    font-size: 24px;
+  }
+
 }
 
 /* body four */
@@ -363,6 +426,29 @@ header span {
   background-color: white;
 }
 
+@media screen and (max-width: 768px) {
+  .banner5-text {
+    display: none;
+  }
+
+  .banner6 {
+    display: none;
+  }
+
+  .body-four .banner5 {
+    width: 100%;
+  }
+
+  .body-four .banner5 video {
+    width: 100%;
+  }
+
+  .body-four .banner5-6 {
+    padding: 0;
+  }
+
+}
+
 /* footer */
 
 footer {
@@ -378,4 +464,14 @@ footer {
 .footer nav {
   display: flex;
   gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer nav {
+    display: none;
+  }
+
+  footer {
+    padding: 16px;
+  }
 }
